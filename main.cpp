@@ -27,7 +27,6 @@ using namespace std;
 int main(int argc, char **argv)
 {
     // check commandline arguments 
-    // (see Zyante Chapter 7, section 7.7 for explanations and examples)   
     if (argc != 3){
         cout << "ERROR: Invalid program call." << endl
             << "Usage: <program_name> userfile datafile" << endl;
@@ -36,7 +35,7 @@ int main(int argc, char **argv)
     string userfile(argv[1]);
     string datafile(argv[2]);
    
-    BBoard bb("CS12 Bulletin Board");
+    BBoard bb("Bulletin Board");
    
     // load users from file
     if (!bb.load_users(userfile))

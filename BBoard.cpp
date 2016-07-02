@@ -11,7 +11,7 @@ using namespace std;
 #include <vector>
 
 BBoard::BBoard()
-: title("Jack's Amazing Bulletin Board"), user_list(), current_user(0), 
+: title("Zafir's Amazing Bulletin Board"), user_list(), current_user(0),
 message_list()
 { }
 
@@ -337,7 +337,7 @@ void BBoard::add_reply()
 		{
 			cout << "Enter Body: ";
 			cin.ignore();
-			while(getline(cin, data)) // may need to change if empty
+			while(getline(cin, data)) // may trip out if empty
 		    {
 		    	if(data == "")
 		    		break;
