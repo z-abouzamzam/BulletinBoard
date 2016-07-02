@@ -1,0 +1,12 @@
+2
+<begin_topic>
+:id: 1
+:subject:   Hello World
+:from: user
+:body:   Hello World
+<end>
+<begin_reply>
+:id: 1
+:subject:   Hello World
+:from: user
+:body: <end>
