@@ -1,8 +1,7 @@
-2
+1
 <begin_topic>
 :id: 1
-:subject:    Hello World
+:subject:   Hello World
 :from: user
-:children: 2 
-:body:    Hello World
+:body:   Hello World
 <end>
