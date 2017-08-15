@@ -1,5 +1,6 @@
 
-#Bulletin Board
+**Bulletin Board**
+=
 
 About
 -------
